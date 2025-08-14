@@ -1,0 +1,29 @@
+{
+  "name": "hedgehog-kit",
+  "version": "1.0.3",
+  "description": "Configurable backend auth module with email verification, profile update, and OTP password reset",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "auth",
+    "backend",
+    "jwt",
+    "express",
+    "nodejs",
+    "otp",
+    "reset-password"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.8.7",
+    "nodemailer": "^6.10.1"
+  }
+}
